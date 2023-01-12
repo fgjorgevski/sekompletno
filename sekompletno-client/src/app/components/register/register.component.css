@@ -1,0 +1,58 @@
+
+mat-dialog-content{
+  width: 600px;
+}
+
+.login-card-custom > input {
+  margin-bottom: 10px;
+}
+.card{
+  width: 100%;
+  border: none;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+.header{
+  display: flex;
+}
+.icon{
+  flex: 1 1 50%;
+  text-align: right;
+}
+
+.btn-basic{
+  color: white;
+ height: 100%;
+ justify-content: center;
+ text-align: center;
+ align-items: center;
+  background-color: black ;
+}
+.close-button{
+  display: flex;
+  justify-content: end;
+}
+
+.header-of-dialog{
+  margin-bottom: 30px;
+  display: flex;
+}
+.tittle{
+  font-weight: bold;
+  font-size: 20px;
+  flex: 1 1 90%;
+  padding-left: 42%;
+}
+.close-button{
+  flex:  1 1 10%;
+}
+.button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn{
+  width: 200px;
+  color:white;
+}

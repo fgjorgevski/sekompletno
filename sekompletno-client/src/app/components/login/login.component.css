@@ -1,0 +1,36 @@
+.login-card-custom {
+    width: 400px;
+    padding: 30px;
+}
+
+.login-card-custom > input {
+    margin-bottom: 10px;
+}
+.card{
+    border: none;
+}
+.header{
+    display: flex;
+}
+.header > h2{
+    font-size: 20px;
+    font-weight: bold;
+    flex: 1 1 100%;
+    padding-left: 40%;
+}
+.icon{
+    flex: 1 1 10%;
+    text-align: right;
+}
+
+.btn-basic{
+    color: white;
+    background-color: black !important;
+    width: 200px;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}

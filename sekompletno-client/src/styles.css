@@ -1,0 +1,30 @@
+/* You can add global styles to this file, and also import other style files */
+
+*{font-family: 'Quicksand', sans-serif;}
+html, body { height: 100%; }
+*body { margin: 0; font-family: 'Quicksand', sans-serif;  background-color: whitesmoke;}
+
+body > app-root > app-login{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+
+.products-container{
+    width: 1600px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+#container-of-products{
+    max-width: 100% ;
+    display: flex ;
+    justify-content: center ;
+}
+ngb-carousel{
+    display: flex;
+    max-width: 100%;
+}

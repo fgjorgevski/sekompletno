@@ -1,0 +1,140 @@
+a{
+    cursor: pointer;
+}
+nav{
+    background-color: white;
+}
+.navbar-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 50px;
+}
+.navigation{
+    flex-grow: 1;
+    flex-direction: row;
+}
+.navigation > ul{
+    display: flex;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-evenly;
+}
+.navigation > ul > .nav-item{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.nav-link {
+    display: inline-block;
+    color: #000;
+    text-decoration: none;
+    
+}
+
+.nav-link::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #000;
+    transition: ease .3s;
+}
+
+.nav-link:hover::after {
+    width: 100%;
+}
+
+.logo{
+    flex-grow: 3;
+    margin-bottom: 10px;
+}
+.logo-img{
+    width: 65px;
+    height: 65px;
+    transform: rotate(26deg);
+}
+.cart-and-authentication{
+    flex-grow: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.cart{
+    flex-grow: 3;
+}
+.cart > li{
+    list-style-type: none;
+    display: flex;
+    justify-content: end;
+}
+.authentication{
+    flex-grow: 1;
+    width: 80px;
+    display: flex;
+    justify-content: end;
+    text-align: center;
+    align-items: center;
+}
+.register > .nav-item{
+    list-style-type: none;
+}
+.register{
+    margin-right: 10px;
+}
+.login > .nav-item{
+    margin-right: 30px;    
+    list-style-type: none;
+}
+
+span{
+    font-size: 10px;
+    margin-left: -15px;
+    margin-bottom: 11px;
+    color: #C5C9A4;
+}
+.bar-message{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: 40px;
+}
+.bar-message > p{
+    margin: 0;
+}
+
+@media screen and (max-width:755px) {
+    .navigation{
+        font-size: 11px;
+        margin: 10px;
+    }
+    .logo-img{
+        width: 55px;
+        height: 55px;
+        transform: rotate(26deg);
+    }
+    .cart-and-authentication{
+        font-size: 11px;
+    }
+}
+@media screen and (max-width:687px) {
+    .navigation{
+        font-size: 10px;
+        margin: 10px;
+    }
+    .logo-img{
+        width: 45px;
+        height: 45px;
+        transform: rotate(26deg);
+    }
+    .cart-and-authentication{
+        font-size: 10px;
+    }
+}

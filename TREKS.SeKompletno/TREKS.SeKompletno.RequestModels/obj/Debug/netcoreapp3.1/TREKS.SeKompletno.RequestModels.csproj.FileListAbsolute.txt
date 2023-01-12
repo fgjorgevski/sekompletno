@@ -1,0 +1,13 @@
+D:\SeKompletno2021\TREKS.SeKompletno\TREKS.SeKompletno.RequestModels\bin\Debug\netcoreapp3.1\TREKS.SeKompletno.RequestModels.deps.json
+D:\SeKompletno2021\TREKS.SeKompletno\TREKS.SeKompletno.RequestModels\bin\Debug\netcoreapp3.1\TREKS.SeKompletno.RequestModels.runtimeconfig.json
+D:\SeKompletno2021\TREKS.SeKompletno\TREKS.SeKompletno.RequestModels\bin\Debug\netcoreapp3.1\TREKS.SeKompletno.RequestModels.runtimeconfig.dev.json
+D:\SeKompletno2021\TREKS.SeKompletno\TREKS.SeKompletno.RequestModels\bin\Debug\netcoreapp3.1\TREKS.SeKompletno.RequestModels.dll
+D:\SeKompletno2021\TREKS.SeKompletno\TREKS.SeKompletno.RequestModels\bin\Debug\netcoreapp3.1\TREKS.SeKompletno.RequestModels.pdb
+D:\SeKompletno2021\TREKS.SeKompletno\TREKS.SeKompletno.RequestModels\obj\Debug\netcoreapp3.1\TREKS.SeKompletno.RequestModels.csproj.AssemblyReference.cache
+D:\SeKompletno2021\TREKS.SeKompletno\TREKS.SeKompletno.RequestModels\obj\Debug\netcoreapp3.1\TREKS.SeKompletno.RequestModels.AssemblyInfoInputs.cache
+D:\SeKompletno2021\TREKS.SeKompletno\TREKS.SeKompletno.RequestModels\obj\Debug\netcoreapp3.1\TREKS.SeKompletno.RequestModels.AssemblyInfo.cs
+D:\SeKompletno2021\TREKS.SeKompletno\TREKS.SeKompletno.RequestModels\obj\Debug\netcoreapp3.1\TREKS.SeKompletno.RequestModels.csproj.CoreCompileInputs.cache
+D:\SeKompletno2021\TREKS.SeKompletno\TREKS.SeKompletno.RequestModels\obj\Debug\netcoreapp3.1\TREKS.SeKompletno.RequestModels.dll
+D:\SeKompletno2021\TREKS.SeKompletno\TREKS.SeKompletno.RequestModels\obj\Debug\netcoreapp3.1\TREKS.SeKompletno.RequestModels.pdb
+D:\SeKompletno2021\TREKS.SeKompletno\TREKS.SeKompletno.RequestModels\obj\Debug\netcoreapp3.1\TREKS.SeKompletno.RequestModels.genruntimeconfig.cache
+D:\SeKompletno2021\TREKS.SeKompletno\TREKS.SeKompletno.RequestModels\obj\Debug\netcoreapp3.1\TREKS.SeKompletno.RequestModels.GeneratedMSBuildEditorConfig.editorconfig

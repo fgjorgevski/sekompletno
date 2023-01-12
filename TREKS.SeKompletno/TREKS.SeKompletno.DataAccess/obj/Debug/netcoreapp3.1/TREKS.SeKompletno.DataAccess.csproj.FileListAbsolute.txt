@@ -1,0 +1,16 @@
+D:\SeKompletno2021\TREKS.SeKompletno\TREKS.SeKompletno.DataAccess\bin\Debug\netcoreapp3.1\TREKS.SeKompletno.DataAccess.deps.json
+D:\SeKompletno2021\TREKS.SeKompletno\TREKS.SeKompletno.DataAccess\bin\Debug\netcoreapp3.1\TREKS.SeKompletno.DataAccess.runtimeconfig.json
+D:\SeKompletno2021\TREKS.SeKompletno\TREKS.SeKompletno.DataAccess\bin\Debug\netcoreapp3.1\TREKS.SeKompletno.DataAccess.runtimeconfig.dev.json
+D:\SeKompletno2021\TREKS.SeKompletno\TREKS.SeKompletno.DataAccess\bin\Debug\netcoreapp3.1\TREKS.SeKompletno.DataAccess.dll
+D:\SeKompletno2021\TREKS.SeKompletno\TREKS.SeKompletno.DataAccess\bin\Debug\netcoreapp3.1\TREKS.SeKompletno.DataAccess.pdb
+D:\SeKompletno2021\TREKS.SeKompletno\TREKS.SeKompletno.DataAccess\bin\Debug\netcoreapp3.1\TREKS.SeKompletno.DomainModels.dll
+D:\SeKompletno2021\TREKS.SeKompletno\TREKS.SeKompletno.DataAccess\bin\Debug\netcoreapp3.1\TREKS.SeKompletno.DomainModels.pdb
+D:\SeKompletno2021\TREKS.SeKompletno\TREKS.SeKompletno.DataAccess\obj\Debug\netcoreapp3.1\TREKS.SeKompletno.DataAccess.csproj.AssemblyReference.cache
+D:\SeKompletno2021\TREKS.SeKompletno\TREKS.SeKompletno.DataAccess\obj\Debug\netcoreapp3.1\TREKS.SeKompletno.DataAccess.AssemblyInfoInputs.cache
+D:\SeKompletno2021\TREKS.SeKompletno\TREKS.SeKompletno.DataAccess\obj\Debug\netcoreapp3.1\TREKS.SeKompletno.DataAccess.AssemblyInfo.cs
+D:\SeKompletno2021\TREKS.SeKompletno\TREKS.SeKompletno.DataAccess\obj\Debug\netcoreapp3.1\TREKS.SeKompletno.DataAccess.csproj.CoreCompileInputs.cache
+D:\SeKompletno2021\TREKS.SeKompletno\TREKS.SeKompletno.DataAccess\obj\Debug\netcoreapp3.1\TREKS.SeKompletno.DataAccess.csproj.CopyComplete
+D:\SeKompletno2021\TREKS.SeKompletno\TREKS.SeKompletno.DataAccess\obj\Debug\netcoreapp3.1\TREKS.SeKompletno.DataAccess.dll
+D:\SeKompletno2021\TREKS.SeKompletno\TREKS.SeKompletno.DataAccess\obj\Debug\netcoreapp3.1\TREKS.SeKompletno.DataAccess.pdb
+D:\SeKompletno2021\TREKS.SeKompletno\TREKS.SeKompletno.DataAccess\obj\Debug\netcoreapp3.1\TREKS.SeKompletno.DataAccess.genruntimeconfig.cache
+D:\SeKompletno2021\TREKS.SeKompletno\TREKS.SeKompletno.DataAccess\obj\Debug\netcoreapp3.1\TREKS.SeKompletno.DataAccess.GeneratedMSBuildEditorConfig.editorconfig

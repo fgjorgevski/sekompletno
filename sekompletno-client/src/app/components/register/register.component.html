@@ -1,0 +1,137 @@
+<!-- 
+ <mat-dialog-content>
+  <div class="header">
+    <button mat-icon-button class="close-button" [mat-dialog-close]="true">
+      <mat-icon class="close-icon" color="warn">close</mat-icon>
+    </button>
+  </div>
+  <h2 mat-dialog-title class="title">Register</h2>
+<form [formGroup]="registerForm" (submit)="onSubmit()">
+  <div class="card login-card-custom">
+    <div class="first-fields">
+      <mat-form-field appearance="fill">
+          <mat-label>Firstname</mat-label>
+          <input matInput formControlName="FirstName">
+      </mat-form-field>
+      <mat-form-field appearance="fill">
+          <mat-label>Lastname</mat-label>
+          <input matInput formControlName="LastName">
+      </mat-form-field>
+      <mat-form-field appearance="fill">
+          <mat-label>Username</mat-label>
+          <input matInput formControlName="Username">
+      </mat-form-field>
+      <mat-form-field class="example-full-width" appearance="fill">
+        <mat-label>Email</mat-label>
+        <input type="email" matInput formControlName="Email" placeholder="Ex. pat@example.com">
+        <mat-error *ngIf="registerForm.hasError('email') && !registerForm.hasError('required')">
+          Please enter a valid email address
+        </mat-error>
+        <mat-error *ngIf="registerForm.hasError('required')">
+          Email is <strong>required</strong>
+        </mat-error>
+      </mat-form-field>
+    </div>
+    <div class="second-fields">
+
+      <mat-form-field appearance="fill">
+          <mat-label>Enter your password</mat-label>
+          <input matInput [type]="hide ? 'password' : 'text'" formControlName="Password">
+          <a mat-icon-button matSuffix (click)="hide = !hide" [attr.aria-label]="'Hide password'" [attr.aria-pressed]="hide">
+            <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
+          </a>
+        </mat-form-field>
+      <mat-form-field appearance="fill">
+          <mat-label>Confirm your password</mat-label>
+          <input matInput [type]="hide ? 'password' : 'text'" formControlName="ConfirmPassword">
+          <a mat-icon-button matSuffix (click)="hide = !hide" [attr.aria-label]="'Hide password'" [attr.aria-pressed]="hide">
+            <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
+          </a>
+        </mat-form-field><mat-form-field appearance="fill">
+    <mat-label>Address</mat-label>
+    <input matInput formControlName="Address">
+  </mat-form-field>
+  <mat-form-field appearance="fill">
+    <mat-label>City</mat-label>
+    <input matInput formControlName="City">
+  </mat-form-field> 
+  <p style="color: red;" *ngIf="usernameExist">Username exist</p>
+</div>
+  <button type="submit" class="btn btn-basic">Submit</button>
+</div>
+</form>
+</mat-dialog-content>   -->
+
+<mat-dialog-content id="registerDialog">
+  <div class="header-of-dialog">
+    <div class="close-button">
+      <h5 class="tittle">REGISTER</h5>
+        <mat-icon mat-dialog-close="true" class="icon">close</mat-icon>
+    </div>
+  </div>
+  <div class="">
+    <div class="form-tittle">
+      
+    </div>
+    <form [formGroup]="registerForm" (submit)="onSubmit()">
+      <div class="card login-card-custom">
+        <div class="first-fields">
+          <mat-form-field appearance="fill">
+            <mat-label>Firstname</mat-label>
+            <input matInput formControlName="FirstName">
+          </mat-form-field>
+          <mat-form-field appearance="fill">
+            <mat-label>Lastname</mat-label>
+            <input matInput formControlName="LastName">
+          </mat-form-field>
+          <mat-form-field appearance="fill">
+            <mat-label>Username</mat-label>
+            <input matInput formControlName="Username">
+          </mat-form-field>
+          <mat-form-field class="example-full-width" appearance="fill">
+            <mat-label>Email</mat-label>
+            <input type="email" matInput formControlName="Email" placeholder="Ex. pat@example.com">
+            <mat-error *ngIf="registerForm.hasError('email') && !registerForm.hasError('required')">
+              Please enter a valid email address
+            </mat-error>
+            <mat-error *ngIf="registerForm.hasError('required')">
+              Email is <strong>required</strong>
+            </mat-error>
+          </mat-form-field>
+        </div>
+        <div class="second-fields">
+          <mat-form-field style="width: 201px;" appearance="fill">
+            <mat-label>Enter your password</mat-label>
+            <input matInput [type]="hide ? 'password' : 'text'" formControlName="Password">
+            <a mat-icon-button matSuffix (click)="hide = !hide" [attr.aria-label]="'Hide password'"
+              [attr.aria-pressed]="hide">
+              <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
+            </a>
+          </mat-form-field>
+          <mat-form-field style="width: 201px;" appearance="fill" >
+            <mat-label>Confirm your password</mat-label>
+            <input matInput [type]="hide ? 'password' : 'text'" formControlName="ConfirmPassword">
+            <a mat-icon-button matSuffix (click)="hide = !hide" [attr.aria-label]="'Hide password'"
+              [attr.aria-pressed]="hide">
+              <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
+            </a>
+          </mat-form-field>
+          <mat-form-field appearance="fill">
+            <mat-label>Address</mat-label>
+            <input matInput formControlName="Address">
+          </mat-form-field>
+          <mat-form-field appearance="fill">
+            <mat-label>City</mat-label>
+            <input matInput formControlName="City">
+          </mat-form-field>
+        </div>
+      </div>
+      <p style="color: red;" *ngIf="usernameExist">Username exist</p>
+      <div class="button">
+        <button type="submit" class="btn btn-basic">Submit</button>
+
+      </div>
+    </form>
+    
+  </div>
+</mat-dialog-content>

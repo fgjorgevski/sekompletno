@@ -1,0 +1,13 @@
+ <div class="order">
+
+  <div class="card">
+    <a class="card-image "routerLink="/order/product/{{product?.id}}">
+      <img [src]="product?.image" class="card-img-top" alt="Fissure in Sandstone" style="height: 250px;" />
+    </a>
+    <div class="card-body">
+      <a href="" routerLink="/order/product/{{product?.id}}"><h5 class="card-title" id="cart-title">{{ product?.nameOfProduct }}</h5> </a>
+      <h5 class="card-price">{{ product?.price }}den.</h5>
+    </div>
+
+  </div>
+</div> 

@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31515.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TREKS.SeKompletno", "TREKS.SeKompletno\TREKS.SeKompletno.csproj", "{E76492E4-9A14-4FF2-A4C3-CA5735F3B65D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TREKS.SeKompletno.DataAccess", "TREKS.SeKompletno.DataAccess\TREKS.SeKompletno.DataAccess.csproj", "{E3FD83C9-4725-4946-A786-7D67C11BE6B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TREKS.SeKompletno.Services", "TREKS.SeKompletno.Services\TREKS.SeKompletno.Services.csproj", "{DF8C2F6A-8018-40AF-B23C-2A083F3B5177}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TREKS.SeKompletno.DomainModels", "TREKS.SeKompletno.DomainModels\TREKS.SeKompletno.DomainModels.csproj", "{9AFE696C-FA63-4649-B94C-413083B51643}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TREKS.SeKompletno.IoC", "TREKS.SeKompletno.IoC\TREKS.SeKompletno.IoC.csproj", "{DA06E23F-E8C5-41B4-BF47-CFF4257F037D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TREKS.SeKompletno.RequestModels", "TREKS.SeKompletno.RequestModels\TREKS.SeKompletno.RequestModels.csproj", "{3128F423-F700-4F06-ADB9-B3E6B01A9C09}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E76492E4-9A14-4FF2-A4C3-CA5735F3B65D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E76492E4-9A14-4FF2-A4C3-CA5735F3B65D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E76492E4-9A14-4FF2-A4C3-CA5735F3B65D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E76492E4-9A14-4FF2-A4C3-CA5735F3B65D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3FD83C9-4725-4946-A786-7D67C11BE6B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3FD83C9-4725-4946-A786-7D67C11BE6B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3FD83C9-4725-4946-A786-7D67C11BE6B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3FD83C9-4725-4946-A786-7D67C11BE6B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF8C2F6A-8018-40AF-B23C-2A083F3B5177}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF8C2F6A-8018-40AF-B23C-2A083F3B5177}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF8C2F6A-8018-40AF-B23C-2A083F3B5177}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF8C2F6A-8018-40AF-B23C-2A083F3B5177}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9AFE696C-FA63-4649-B94C-413083B51643}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AFE696C-FA63-4649-B94C-413083B51643}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AFE696C-FA63-4649-B94C-413083B51643}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AFE696C-FA63-4649-B94C-413083B51643}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA06E23F-E8C5-41B4-BF47-CFF4257F037D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA06E23F-E8C5-41B4-BF47-CFF4257F037D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA06E23F-E8C5-41B4-BF47-CFF4257F037D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA06E23F-E8C5-41B4-BF47-CFF4257F037D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3128F423-F700-4F06-ADB9-B3E6B01A9C09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3128F423-F700-4F06-ADB9-B3E6B01A9C09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3128F423-F700-4F06-ADB9-B3E6B01A9C09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3128F423-F700-4F06-ADB9-B3E6B01A9C09}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2504466A-88C9-425D-83CA-C24BAF9B0C23}
+	EndGlobalSection
+EndGlobal
